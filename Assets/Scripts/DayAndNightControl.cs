@@ -83,6 +83,6 @@ public class DayAndNightControl : MonoBehaviour {
 	{
 		//debug GUI on screen visuals
 		GUI.Box (new Rect (15, 15, 100, 25), "Day: " + currentDay);
-		GUI.Box (new Rect (40, 40, 200, 30), "" + DayState);
+		//GUI.Box (new Rect (40, 40, 200, 30), "" + DayState);
 	}
 }
